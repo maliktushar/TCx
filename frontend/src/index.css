@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black; /* Set background color to black */
+}
+
+.text-white {
+  color: white; /* For any text you want to display in white */
+}
+.gradient-text {
+  background: linear-gradient(to bottom, white, rgb(127, 127, 127));
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+body, html {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black; 
+}
