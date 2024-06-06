@@ -8,10 +8,13 @@ const Home = () => {
   console.log(document.cookie)
   return (
     <>
-      <Navbar />
+    <div className="z-10">
+    <Navbar />
+    </div>
+      
       <div className="min-h-screen bg-black flex flex-col lg:flex-row justify-around items-center lg:items-start px-4 lg:p-0 relative z-0">
         <div className="image lg:w-1/3 px-4 lg:p-0 relative z-10">
-          <img src={e1} alt="box_img" className=" w-[60%] h-[80%] mt-[-60px] sm:mt-[-120px] md:w-[90%] md:mt-[-60px] z-20 md:h-[60%] lg:h-full lg:pl-14 relative" />
+          <img src={e1} alt="box_img" className=" w-[60%] h-[80%] mt-[-60px] sm:mt-[-120px] md:w-[90%] md:mt-[-60px] z-40 md:h-[60%] lg:h-full lg:pl-14 relative" />
         </div>
         <div className="content  text-white border rounded-xl lg:h-[120%] lg:py-10 w-[80%] md:w-2/3 lg:w-2/3 mt-10 lg:px-20 lg:mr-10 flex flex-col items-center p-4 relative z-10">
           <h1 className="text-2xl lg:text-4xl font-bold gradient-text text-center mt-4 lg:mt-12">
