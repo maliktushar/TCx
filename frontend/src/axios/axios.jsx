@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/',
+  baseURL: 'http://34.229.97.146/',
 });
 
 export async function login(data) {
