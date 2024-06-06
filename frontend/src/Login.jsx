@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ToastContainer, toast } from 'react-toastify';
 import e1 from "./assets/Group 66.png";
-import e2 from "./assets/LinkedIn_icon 1.png";
-import Footer from "./component/Footer.jsx";
 import { login } from './axios/axios.jsx';
-import { ToastContainer,toast } from 'react-toastify';
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -61,12 +59,12 @@ const Login = () => {
                         <button onClick={handleSignIn} className="w-full md:w-[95%] flex justify-center items-center gap-1 uppercase text-white font-bold lg:text-lg md:text-base text-sm py-3 bg-[#FD7428] rounded-[20px] shadow-md hover:shadow-lg cursor-pointer text-center transition-all duration-300 ease-in-out mb-4">
                             Sign In
                         </button>
-                        <div className="text-center w-full flex justify-center items-center gap-4 mb-4">
+                        {/*<div className="text-center w-full flex justify-center items-center gap-4 mb-4">
                             <div className="border-1 h-1 w-1/2 border-b-2"></div>
                             <p className="md:text-base text-sm text-[#525252]">or continue with</p>
                             <div className="border-1 h-1 w-1/2 border-b-2"></div>
                         </div>
-                        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                             <div className="flex flex-row gap-3 bg-white border-2 border-[#FD7428] p-4 items-center cursor-pointer">
                                 <img src={e3} alt="" />
                                 Login In with Google

@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='flex flex-col gap-3 '>
           
           <p className='text-xl font-semibold'>Become an AI Prodigy</p>
-          <p>TCx- Grow 100x , 2023.</p>
+          <p>TCx- Grow 100x , 2024.</p>
         </div>
         <a href="/"><img  src={logo} alt="" className='w-24' /></a>
         <div className='flex flex-col gap-5 text-right'>

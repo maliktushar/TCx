@@ -91,36 +91,6 @@ const data = [
     btn: "Get Link",
     image: "https://source.unsplash.com/800x600/?ai"
   },
-  {
-    heading: "Learn to Build an In-App Voice AI Assistant",
-    link: "https://www.udemy.com/course/alan-ai-course/",
-    btn: "Get Link",
-    image: "https://source.unsplash.com/800x600/?voice-ai"
-  },
-  {
-    heading: "Dynamic Pricing Strategy to effectively fill slots | E-commerce | Travel | Hospitality Domains",
-    link: "https://youtu.be/a_CXpnsvPa0",
-    btn: "Get Link",
-    image: "https://source.unsplash.com/800x600/?pricing,ecommerce"
-  },
-  {
-    heading: "Train your own Product Embeddings | Embeddings across Domains | Training on 1.02 Billion rows on GPU",
-    link: "https://youtu.be/DN4S96oHRhE",
-    btn: "Get Link",
-    image: "https://source.unsplash.com/800x600/?machine-learning"
-  },
-  {
-    heading: "Approximate Nearest Neighbour and a popular Library Annoy for k-Nearest Neighbour Search & Product Quantizer",
-    link: "https://youtu.be/DSQOrBTqmYA & https://youtu.be/50PNumB7s3U",
-    btn: "Get Link",
-    image: "https://source.unsplash.com/800x600/?neural-networks"
-  },
-  {
-    heading: "PID Controller to add a layer of diversity to the recommender systems",
-    link: "https://youtu.be/laTxgnzjfR0",
-    btn: "Get Link",
-    image: "https://source.unsplash.com/800x600/?pid-controller"
-  }
 ];
 
 
